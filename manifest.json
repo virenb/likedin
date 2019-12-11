@@ -1,0 +1,17 @@
+{
+	"name": "LikedIn",
+	"version": "1.0",
+	"description": "Cleaning up LinkedIn, kind of",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["*://*.linkedin.com/*"],
+			"js": [ "likedin.js" ]
+		}
+  ],
+  "icons": { 
+    "16": "shush-16.png",
+    "48": "shush-48.png",
+   "128": "shush-128.png" 
+  }
+}
